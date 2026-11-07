@@ -1,5 +1,6 @@
 # Ignore data folder and heavy pptx files
 data/*
+!data/week8_evaluation_synt_data.csv
 slides/*.pptx
 
 # Byte-compiled / optimized / DLL files

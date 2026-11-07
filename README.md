@@ -1,12 +1,25 @@
-# Session X — Course Y
+# Week 8 — Intro to Data Course
 
-This repository contains the materials for **Session X** of *Course Y*.  
+This repository contains the materials for **Week 8** of *Intro to Data Course*.  
 - Slides: see [`slides/`](./slides/) folder  
 - Notebooks: see [`notebooks/`](./notebooks/) folder 
 ---
 
 ## 📑 Session Outline
 
+This session explores two key aspects of building effective classification models: **model evaluation** and **ensemble learning**.
+
+We begin by looking at how to evaluate and compare classification models fairly, focusing on:
+- Train, validation, and test splits, and avoiding data leakage.
+- The confusion matrix and key evaluation metrics: accuracy, precision, recall, and F1-score.
+- K-fold cross-validation and Scikit-learn Pipelines.
+
+The second half introduces **ensemble learning** and how combining multiple models can improve predictive performance. We explore three main approaches:
+- **Bagging:** Bootstrap aggregating and Random Forests.
+- **Boosting:** AdaBoost and Gradient Boosting.
+- **Stacking and Voting:** Combining different models to make predictions.
+
+The session includes two notebooks for gaining hands-on experience in evaluation and ensemble models.
 
 ---
 ## 🚀 Environment Setup
